@@ -9,3 +9,7 @@
 header nav li:last-child{
     border-color:#5758e0 !important;
 }
+header nav li:last-child:hover{
+    background-image: linear-gradient(to right,blue,lightblue);
+    color: white;
+}
