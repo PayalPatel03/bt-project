@@ -13,4 +13,25 @@ header nav li:last-child:hover{
     background-image: linear-gradient(to right,blue,lightblue);
     color: white;
 }
+header nav li:not(:last-child) a:hover{
+    color: #5758e0 !important;
+}
+
+/* CAROUSEL */
+.carousel-item{
+    background: url(../images/main-img.jpg), rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-blend-mode:difference;
+    padding: 110px 0px;
+    
+}
+.carousel-item h2{
+    background-image: linear-gradient(to left,#55b4d4,#5771dd);
+    background-clip: text;
+    color: transparent;
+}
+.carousel-item a{
+    background-color: #5758e0  !important;
+}
+
 
