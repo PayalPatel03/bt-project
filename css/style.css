@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'jost';
+}
 /* -----------------------------------------------HEADER----------------------------------------- */
 
 header nav li:last-child{
@@ -70,13 +72,21 @@ header nav li:not(:last-child) a:hover{
     background-image: linear-gradient(to right,blue,lightblue);
     transform: translateY(10px);
 }
-/* ABOUT */
+/* -----------------------------------------------------ABOUT----------------------- */
  .about span{
     height: 5px;
     width: 60px;
     background-image: linear-gradient(to right,blue,lightblue);
 }
-
+/* Professional */
+.professional-cont .d-inline-block{
+    height: 5px;
+    width: 60px;
+    background-image: linear-gradient(to right,blue,lightblue);
+}
+.professional{
+    padding: 100px;
+}
 
 
 
