@@ -24,6 +24,7 @@ header nav li:not(:last-child) a:hover{
     background: url(../images/main-img.jpg) , rgba(0 , 0 , 0 , 0.6);
     background-size: cover;
     padding: 140px 0px;
+    /* background-blend-mode: color-burn; */
 }
 
 .carousel-item h2{
@@ -34,6 +35,13 @@ header nav li:not(:last-child) a:hover{
 
 .carousel-item a{
     background-color: #5758e0  !important;
+}
+
+/* CARD */
+.card:hover{
+    background-image: linear-gradient(to right,blue,lightblue);
+    color: white;
+
 }
 
 
