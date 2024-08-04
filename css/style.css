@@ -104,16 +104,6 @@ header nav li:not(:last-child) a:hover{
 .portfolio {
     padding: 80px;
 }
-.doctors-info {
-    display: flex;
-    justify-content: space-evenly;
-  } 
-  .portfolio-hover {
-    width: 300px;
-    height: 700px;
-    position: relative;
-
-  }
   #portfolio-cont {
     margin-top: 20px;
     text-align: center;
@@ -122,12 +112,14 @@ header nav li:not(:last-child) a:hover{
     justify-content: center;
     height: 50vh;
     opacity: 0;
+    
   }
   .color {
     width: 400px;
     height: 0px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.432);
+    
   }
   .portfolio-hover:hover .color {
     opacity: 0.8;
@@ -138,11 +130,3 @@ header nav li:not(:last-child) a:hover{
   .portfolio-hover:hover #portfolio-cont {
     opacity: 1;   
   }
-  
-  
-  
-
-
-
-
-
