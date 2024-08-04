@@ -130,3 +130,15 @@ header nav li:not(:last-child) a:hover{
   .portfolio-hover:hover #portfolio-cont {
     opacity: 1;   
   }
+  /* ------------------------------------------------------------VIDEO---------------------------------------- */
+  .video{
+    padding:80px ;
+  }
+  .video-inner img{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    
+    
+    
+  }
