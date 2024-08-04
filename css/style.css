@@ -80,6 +80,11 @@ header nav li:not(:last-child) a:hover{
     width: 60px;
     background-image: linear-gradient(to right,blue,lightblue);
 }
+/*----------------------- SERVICES------------------------------- */
+.col-4 .services-item a i{
+    margin-top: 20px !important;
+
+}
 /* --------------------------------Professional------------------------------- */
 .professional .d-inline-block{
     height: 5px;
@@ -131,14 +136,24 @@ header nav li:not(:last-child) a:hover{
     opacity: 1;   
   }
   /* ------------------------------------------------------------VIDEO---------------------------------------- */
-  .video{
-    padding:80px ;
-  }
-  .video-inner img{
-    width: 50%;
-    height: 50%;
-    display: flex;
-    
-    
-    
-  }
+ 
+/* -------------- V I D E O - S E C T I O N ------------- */
+
+.video-inner img {
+  object-fit: cover;
+  height: 500px;
+}
+
+.video-inner i {
+  font-size: 150px;
+  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  background-clip: text;
+  color: transparent;
+}
+
+.video-inner i:hover {
+  font-size: 180px;
+  transition: 0.2s;
+}
+
+/* -------------- V I D E O - S E C T I O N - E N D ------------- */
