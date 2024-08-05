@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'jost';
+    font-family:jost !important;
 }
-/* -----------------------------------------------HEADER----------------------------------------- */
+/* --------------------------HEADER-------------- */
 
 header nav li:last-child{
     border-color:#5758e0 !important;
@@ -21,7 +21,7 @@ header nav li:not(:last-child) a:hover{
     color: #55b4d4 !important;
 }
 
-/* -----------------------------------------------CAROUSEL------------------------------------- */
+/* ------------------------------CAROUSEL----------------- */
 .carousel-item{
     background: url(../images/main-img.jpg),rgba(0, 0, 0, 0.7);
     background-size: cover;
@@ -74,7 +74,7 @@ header nav li:not(:last-child) a:hover{
     background-image:linear-gradient(to left, #55b4d4, #5758e0);
     /* transform: translateY(10px); */
 }
-/* -----------------------------------------------------ABOUT----------------------- */
+/* ------------------------------ABOUT------------ */
  .about span{
     height: 5px;
     width: 60px;
@@ -85,7 +85,7 @@ header nav li:not(:last-child) a:hover{
     margin-top: 20px !important;
 
 }
-/* --------------------------------Professional------------------------------- */
+/* -------------Professional------------- */
 .professional .d-inline-block{
     height: 5px;
     width: 60px;
@@ -100,12 +100,12 @@ header nav li:not(:last-child) a:hover{
     color: transparent;
 }
 
-/* ------------------------------------FEATURES---------------------------------------------- */
+/* ------------------FEATURES------------------------ */
 .features {
     padding: 110px;
 }
 
-/* ------------------------------------------------PORTFOLIO----------------------------------- */
+/* ---------------------PORTFOLIO-------------- */
 .portfolio {
     padding: 80px;
 }
@@ -135,10 +135,7 @@ header nav li:not(:last-child) a:hover{
   .portfolio-hover:hover #portfolio-cont {
     opacity: 1;   
   }
-  /* ------------------------------------------------------------VIDEO---------------------------------------- */
- 
-/* -------------- V I D E O - S E C T I O N ------------- */
-
+  /* -----------------------------------VIDEO starts---------------- */
 .video-inner img {
   object-fit: cover;
   height: 500px;
@@ -146,7 +143,7 @@ header nav li:not(:last-child) a:hover{
 
 .video-inner i {
   font-size: 150px;
-  background-image: linear-gradient(to right, #5758e0, lightseagreen);
+  background-image: linear-gradient(to left, #55b4d4, #5758e0);
   background-clip: text;
   color: transparent;
 }
@@ -156,4 +153,25 @@ header nav li:not(:last-child) a:hover{
   transition: 0.2s;
 }
 
-/* -------------- V I D E O - S E C T I O N - E N D ------------- */
+/* -------------- VIDEO ends------------- */
+
+/* TESTIMONIAL starts */
+.testimonial-content .card img {
+    width: 100px;
+  }
+  
+  .testimonial-content .card:hover {
+    background-image: linear-gradient(to left, #55b4d4, #5758e0);
+    transform: translateY(-10px);
+    transition: ease-in 0.2s;
+  }
+  
+  .testimonial-content .card:hover .color {
+    color: white !important;
+  }
+  
+  .testimonial-rating i {
+    background-image: linear-gradient(to left, #55b4d4, #5758e0);
+    background-clip: text;
+    color: transparent;
+  }
