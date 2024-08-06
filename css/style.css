@@ -42,40 +42,64 @@ header nav li:not(:last-child) a:hover{
     }
 
 /* SERVICES*/
-.services{
-    padding: 100px 0;
+.services-item a i:first-child {
+  background-image: linear-gradient(to left, #55b4d4, #5758e0);
+  background-clip: text;
+  color: transparent;
 }
-.services .col-4:first-child .services-item a::before{
-    position: absolute;
-    top: -20px;
-    left:-10px;
-    background-image: linear-gradient(to right,blue,lightblue);
-    content: '';
-    width: 80%;
-    height: 60%;
-    z-index: -1;
+
+.services {
+  padding: 100px 0px;
 }
-.services .col-4:last-child .services-item a::before{
-    position: absolute;
-    right: -5px;
-    bottom: -10px;
-    background-image: linear-gradient(to right,blue,lightblue);
-    content: '';
-    width: 80%;
-    height: 60%;
-    z-index: -1;
+
+.services-item:hover {
+  background-image: linear-gradient(to left, #55b4d4, #5758e0);
+  color: white !important;
+  transform: translateY(-10px);
+  transition: 0.2s;
 }
-.services .col-4 .services-item i{
-    background-image:linear-gradient(to left, #55b4d4, #5758e0);
-    background-clip: text;
-    color: transparent; 
+
+
+
+.services .col-4:first-child .services-item a::before {
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  background-image: linear-gradient(to left, #55b4d4, #5758e0);
+  top: -20px;
+  left: -10px;
+  content: '';
+  z-index: -1;
 }
-.services-item a i:hover{
-    color: white ;
+
+
+.services .col-4:last-child .services-item a::before {
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  background-image: linear-gradient(to left, #55b4d4, #5758e0);
+  right: -10px;
+  bottom: -20px;
+  content: '';
+  z-index: -1;
 }
-.services-item:hover{
-    background-image:linear-gradient(to left, #55b4d4, #5758e0);
-    /* transform: translateY(10px); */
+
+.services .col-4:first-child .services-item:hover a::before {
+  display: none;
+}
+
+.services .col-4:last-child .services-item:hover a::before {
+  display: none;
+}
+
+.services .col-4 .services-item a:hover p {
+  color: white !important;
+
+}
+
+.services .col-4 .services-item a:hover i {
+  color: white !important;
+
 }
 /* ------------------------------ABOUT------------ */
  .about span{
@@ -83,7 +107,6 @@ header nav li:not(:last-child) a:hover{
     width: 60px;
     background-image: linear-gradient(to right,blue,lightblue);
 }
-/*----------------------- SERVICES------------------------------- */
 .col-4 .services-item a i{
     margin-top: 20px !important;
 
@@ -178,18 +201,26 @@ header nav li:not(:last-child) a:hover{
 }
 /*-------- TESTINOMIAL ends---------- */
 
-/* VIDEO */
-.talking-content span{
-  height: 5px;
-  width: 60px;
+/* ----------TALKING starts------------ */
+.talking-form span {
   background-image: linear-gradient(to left, #55b4d4, #5758e0);
+  width: 60px;
+  height: 5px;
 }
-.talking{
-  padding: 120px;
-}
-.talking-content button{
+
+.talking-form-content .btn {
   background-color: #5758e0;
 }
-.talking-content button:hover{
+
+.talking-form-content .btn:hover {
   background-image: linear-gradient(to left, #55b4d4, #5758e0);
 }
+
+.talking-form i {
+  background-image: linear-gradient(to left, #55b4d4, #5758e0);
+  background-clip: text;
+  color: transparent;
+}
+/* ----------TALKING ends------------ */
+
+/*---------- CONTACT--------- */
