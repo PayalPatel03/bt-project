@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+::placeholder{
+  color: gray !important;
+}
 body{
     font-family:jost !important;
 }
@@ -44,8 +47,8 @@ header nav li:not(:last-child) a:hover{
 }
 .services .col-4:first-child .services-item a::before{
     position: absolute;
-    top: -10px;
-    left:-5px;
+    top: -20px;
+    left:-10px;
     background-image: linear-gradient(to right,blue,lightblue);
     content: '';
     width: 80%;
@@ -155,23 +158,38 @@ header nav li:not(:last-child) a:hover{
 
 /* -------------- VIDEO ends------------- */
 
-/* TESTIMONIAL starts */
-.testimonial-content .card img {
-    width: 100px;
-  }
-  
-  .testimonial-content .card:hover {
-    background-image: linear-gradient(to left, #55b4d4, #5758e0);
-    transform: translateY(-10px);
-    transition: ease-in 0.2s;
-  }
-  
-  .testimonial-content .card:hover .color {
-    color: white !important;
-  }
-  
-  .testimonial-rating i {
-    background-image: linear-gradient(to left, #55b4d4, #5758e0);
-    background-clip: text;
-    color: transparent;
-  }
+/* -------------TESTIMONIAL starts---------- */
+.testimonial-content img{
+  height: 100px;
+  width: 100px;
+}
+.testimonial-content i{
+  background-image: linear-gradient(to left, #55b4d4, #5758e0);
+  background-clip: text;
+  color: transparent;
+}
+.testimonial-content:hover{
+  background-image: linear-gradient(to left, #55b4d4, #5758e0);
+  transform: translateY(-10px);
+  transition: ease-in 0.2s;
+}
+.testimonial-content:hover .hover-testimonial{
+  color: white !important;
+}
+/*-------- TESTINOMIAL ends---------- */
+
+/* VIDEO */
+.talking-content span{
+  height: 5px;
+  width: 60px;
+  background-image: linear-gradient(to left, #55b4d4, #5758e0);
+}
+.talking{
+  padding: 120px;
+}
+.talking-content button{
+  background-color: #5758e0;
+}
+.talking-content button:hover{
+  background-image: linear-gradient(to left, #55b4d4, #5758e0);
+}
