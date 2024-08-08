@@ -47,10 +47,10 @@ header nav li:not(:last-child) a:hover{
   background-clip: text;
   color: transparent;
 }
-
+/* 
 .services {
   padding: 100px 0px;
-}
+} */
 
 .services-item:hover {
   background-image: linear-gradient(to left, #55b4d4, #5758e0);
