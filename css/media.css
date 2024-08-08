@@ -1,8 +1,10 @@
 @media(min-width:576px){
-  
+ .portfolio-content p{
+    width: 90%;
+ }
 }
 @media(min-width:768px){
-  
+ 
 }
 @media(min-width:992px){
     
